@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+table{
+    border-collapse: collapse;
+    width:50vw;
+    margin: auto;
+}
+
+.left-align{
+    text-align: left;
+}
+.text-color{
+    color:white;
+}
+
+table tbody tr td{
+    text-align: right;
+}
+thead{
+    background-color: #c25551;
+}
+tbody tr:first-child{
+    background-color: #d9aba9;
+    color: white;
+}
+tr:nth-child(2){
+    background-color: #f2e2e1;
+}
+tbody tr:last-child{
+    background: #bfbcbb;
+}
+
